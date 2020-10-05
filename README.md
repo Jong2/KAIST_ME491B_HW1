@@ -31,7 +31,7 @@ https://www.dropbox.com/s/wvye28wmwpz6631/CNN_dogcat200928.pt?dl=0
 ___
 ### 1. Pytorch
 
-(1) Explain the following pytorch libraries simply. (In two lines)
+(1) Explain the following pytorch libraries simply. (In two lines each)
 
 ```
 torch.nn.functional
