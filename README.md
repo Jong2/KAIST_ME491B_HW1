@@ -1,6 +1,26 @@
 # KAIST_ME491B_HW1
 Repository for KAIST ME491B HW1 code.
 
+## Usage
+Download catdog data in https://drive.google.com/file/d/1RGNDCsWGiI75Y1aLoMZ1C_AD-J9rnrce/view?usp=sharing and unzip in workspace.
+Original catdog_image source is https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/.
+
+- To train a model(network):
+
+```
+$ python3 transfer_learning_tutorial.py
+```
+
+- To test the saved model(network):
+
+```
+$ python3 CNN_test.py
+```
+- You can also copy and paste these codes to Google Colab and run the codes.
+- To use pretrained weights to test the network, download the file from the following link.
+https://www.dropbox.com/s/wvye28wmwpz6631/CNN_dogcat200928.pt?dl=0
+
+
 ## ME491(B) 2020 Fall, Code Review #1. CNN                                  
 
 #### Due : 10/19 (Mon) (13:00), KLMS
