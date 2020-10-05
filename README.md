@@ -27,9 +27,8 @@ https://www.dropbox.com/s/wvye28wmwpz6631/CNN_dogcat200928.pt?dl=0
 
 - You can write the report in **English** or **Korean** / within 5 pages
 
-### 1. Pytorch
-
 ___
+### 1. Pytorch
 
 (1) Explain the following pytorch libraries simply. (In two lines)
 
@@ -42,9 +41,8 @@ torch.autograd
 
 (2) Explain the advantages of using GPU than CPU. (In one line)
 
-### 2. CNN code review
-
 ___
+### 2. CNN code review
 
 Please download the codes and files in this repository.
 https://github.com/Jong2/KAIST_ME491B_HW1
