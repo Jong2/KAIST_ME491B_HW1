@@ -1,5 +1,5 @@
-# KAIST_ME491B_HW1
-Repository for KAIST ME491B HW1 code.
+# KAIST_ME491C_HW2
+Repository for KAIST ME491C HW2 code.
 
 ## Usage
 Download catdog data in https://www.dropbox.com/s/dgfx1kx27pfdw2n/catdog_data.zip?dl=0 and unzip in workspace.
