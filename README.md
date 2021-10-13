@@ -19,7 +19,7 @@ $ python3 CNN_test.py
 ```
 - You can also copy and paste these codes to Google Colab and run the codes.
 - To use pretrained weights to test the network, download the file from the following link.
-https://www.dropbox.com/s/wvye28wmwpz6631/CNN_dogcat200928.pt?dl=0
+https://www.dropbox.com/s/6x5jitduoqc9wx8/CNN_dogcat200928.pt?dl=0
 
 ___
 
