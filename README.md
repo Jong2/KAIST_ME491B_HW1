@@ -21,59 +21,36 @@ $ python3 CNN_test.py
 - To use pretrained weights to test the network, download the file from the following link.
 https://www.dropbox.com/s/wvye28wmwpz6631/CNN_dogcat200928.pt?dl=0
 
+___
 
-## ME491(B) 2020 Fall, Code Review #1. CNN                                  
+## ME491(C) 2021 Fall, Code Review #2. CNN                                  
 
-#### Due : 10/19 (Mon) (13:00), KLMS
+#### Due : 10/27 (Wed) (13:00), KLMS
 
-- You can write the report in **English** or **Korean** / within 5 pages
+- You can write the report in **English** or **Korean** / within **5 pages** / **pdf**
+
+### 1. CNN code review
 
 ___
-### 1. Pytorch
 
-(1) Explain the following pytorch libraries simply. (In two lines each)
-
-```
-torch.nn.functional
-torch.optim
-torchvision
-torch.autograd
-```
-
-(2) Explain the advantages of using GPU than CPU. (In one line)
-
-___
-### 2. CNN code review
-
-Please download the codes and files in this repository.
+Please download the codes and files from following link.
 https://github.com/Jong2/KAIST_ME491B_HW1
 
 Write the code review report of two scripts (***transfer_learning_tutorial.py*** and ***CNN_test.py***).
 
 **(1) Overall code review.**
 
-- The code structure - comments on each meaningful code block. (You can capture the code in image, and give some comments on it)
-- Explain the role of each code block.
-- *e.g. This line defines the type of loss.*
+- The code structure - comments on each meaningful code block (about 2 or 3 lines per block). You can capture the code in image, and give some comments on it.
+- Explain the role of each code block. *e.g. This line defines the type of loss - SGD.*
 
-Also, you are encouraged to train and test the network with fine-tuning, and check the effect of it.
+- Run two scripts and attach the test result images.
 
-The report should contain answers about these questions in maximum two lines each.
+(2) Extra points  (If you do "(1) overall code review"  perfectly, you can get maximum points though. Also, although you exceed the maximum score by getting extra points, you still get the maximum score.)
 
-(2) How does the learning rate affect training?
-
-(3) How does the preprocessing method (e.g. data augmentation, normalization) affect training?
-
-(4) How does the epoch size affect training?
-
-*e.g. If the learning rate gets bigger, something gets better while something gets worse. The reason is--* 
-
---> You don't need to do experiment to answer the questions (2)-(4), but if you analyze this by your own experiment and results, *extra points* might be given. You can still get a perfect score when you write the answer without conducting own experiments.
-
-(5) If you changed the code better, please explain your code and results. You can also put the loss graph, comparison of training and test accuracy, etc. If you changed the code, please submit your code with the report. These tasks will be evaluated as *extra points*.
+- You can train and test the network with analyzing the effect of the learning rate, epoch size, optimizer, etc.
+- You can design your own CNN model rather than using Resnet18.
+- If you changed the code better, please explain your code and results. You can also put the loss graph, comparison of training and test accuracy, etc. If you changed the code, please submit your code with the report.
 
 ---
 
 If you have any question, contact me by e-mail (Jonghwi Kim(김종휘), stkimjh@kaist.ac.kr)
-
-Code reference : github/leeJaeDuck/cnn_learning_code
