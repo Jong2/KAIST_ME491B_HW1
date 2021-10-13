@@ -2,7 +2,7 @@
 Repository for KAIST ME491B HW1 code.
 
 ## Usage
-Download catdog data in https://drive.google.com/file/d/1RGNDCsWGiI75Y1aLoMZ1C_AD-J9rnrce/view?usp=sharing and unzip in workspace.
+Download catdog data in https://www.dropbox.com/s/dgfx1kx27pfdw2n/catdog_data.zip?dl=0 and unzip in workspace.
 
 Original catdog_image source is https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/.
 
