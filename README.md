@@ -27,28 +27,31 @@ ___
 
 #### Due : 10/27 (Wed) (13:00), KLMS
 
-- You can write the report in **English** or **Korean** / within **5 pages** / **pdf**
+- You can write the report in **English** or **Korean** / within **7 pages** / **pdf**
 
 ### 1. CNN code review
-
-___
 
 Please download the codes and files from following link.
 https://github.com/Jong2/KAIST_ME491B_HW1
 
 Write the code review report of two scripts (***transfer_learning_tutorial.py*** and ***CNN_test.py***).
 
-**(1) Overall code review.**
+**(1) Overall code review (within 4 pages)**
 
 - The code structure - comments on each meaningful code block (about 2 or 3 lines per block). You can capture the code in image, and give some comments on it.
-- Explain the role of each code block. *e.g. This line defines the type of loss - SGD.*
+- <u>Explain the role of each code block</u>. *e.g. This line defines the type of loss - SGD.*
+- Run two scripts and <u>attach the test result images</u>.
 
-- Run two scripts and attach the test result images.
+**(2) Design your own CNN model for the catdog dataset (within 2 pages)**
 
-(2) Extra points  (If you do "(1) overall code review"  perfectly, you can get maximum points though. Also, although you exceed the maximum score by getting extra points, you still get the maximum score.)
+- Design the model and write a code.
+- Replace fine-tuned Res18 model by <u>your own CNN model</u>.
+- Train and test the catdog dataset by your model.
+- <u>In the report, explain the model and corresponding changed lines in train/test code, and show how the loss and accurcay converged. Also, attach the test result images.</u>
+
+**(3) Extra points** **(within 1 page)** (If you complete "(1) overall code review"  perfectly, you can get maximum points though. Also, although you exceed the maximum score by getting extra points, you still get the maximum score.)
 
 - You can train and test the network with analyzing the effect of the learning rate, epoch size, optimizer, etc.
-- You can design your own CNN model rather than using Resnet18.
 - If you changed the code better, please explain your code and results. You can also put the loss graph, comparison of training and test accuracy, etc. If you changed the code, please submit your code with the report.
 
 ---
